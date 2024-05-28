@@ -3,7 +3,7 @@ pragma solidity ^0.8;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract NitinToken is IERC20{
+contract MyToken is IERC20{
     string public TokenName;
     string public TokenAbbreviation;
     address private _owner;
